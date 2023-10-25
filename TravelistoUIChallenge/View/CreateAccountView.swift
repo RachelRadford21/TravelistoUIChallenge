@@ -8,11 +8,30 @@
 import SwiftUI
 
 struct CreateAccountView: View {
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Create account view")
+        }
+        .toolbar() {
+            
+            ToolbarItem(placement: .topBarLeading) {
+                
+                
+                NavigationLink {
+                    TutorialView()
+                } label: {
+                    Image("BackArrow")
+                }.navigationBarBackButtonHidden(true)
+                
+            }
+        }
+        
     }
+    
 }
 
 #Preview {
     CreateAccountView()
+       
 }

@@ -9,7 +9,14 @@ import SwiftUI
 
 struct HeroView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image("tutorialPhoto")
+             .resizable()
+             .frame(width: 280, height: 280)
+             .overlay {
+                 LogoView()
+                     .position(x: 140, y: -20)
+                     
+             }.padding(.bottom, 40)
     }
 }
 

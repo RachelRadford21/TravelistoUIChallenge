@@ -11,6 +11,17 @@
 		ABCD2E812AE3381F008A181D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E802AE3381F008A181D /* ContentView.swift */; };
 		ABCD2E832AE33821008A181D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD2E822AE33821008A181D /* Assets.xcassets */; };
 		ABCD2E862AE33821008A181D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD2E852AE33821008A181D /* Preview Assets.xcassets */; };
+		ABCD2E8E2AE33842008A181D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E8D2AE33842008A181D /* extensions.swift */; };
+		ABCD2E912AE40825008A181D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E902AE40825008A181D /* SplashView.swift */; };
+		ABCD2E932AE40836008A181D /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E922AE40836008A181D /* TutorialView.swift */; };
+		ABCD2E982AE410AE008A181D /* EnvBackgroundColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */; };
+		ABCD2E9D2AE41833008A181D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E9C2AE41833008A181D /* LogoView.swift */; };
+		ABCD2E9F2AE41D72008A181D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */; };
+		ABCD2EA12AE42B48008A181D /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA02AE42B48008A181D /* FontStyles.swift */; };
+		ABCD2EA32AE438AC008A181D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA22AE438AC008A181D /* SignInView.swift */; };
+		ABCD2EA52AE438BD008A181D /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */; };
+		ABCD2EA82AE43957008A181D /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA72AE43957008A181D /* HeroView.swift */; };
+		ABCD2EAA2AE439A9008A181D /* TutorialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		ABCD2E802AE3381F008A181D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABCD2E822AE33821008A181D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABCD2E852AE33821008A181D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABCD2E8D2AE33842008A181D /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
+		ABCD2E902AE40825008A181D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		ABCD2E922AE40836008A181D /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
+		ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvBackgroundColorStyle.swift; sourceTree = "<group>"; };
+		ABCD2E9C2AE41833008A181D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
+		ABCD2EA02AE42B48008A181D /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		ABCD2EA22AE438AC008A181D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
+		ABCD2EA72AE43957008A181D /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +75,8 @@
 			children = (
 				ABCD2E7E2AE3381F008A181D /* TravelistoUIChallengeApp.swift */,
 				ABCD2E802AE3381F008A181D /* ContentView.swift */,
+				ABCD2E8F2AE4058C008A181D /* View */,
+				ABCD2E8C2AE3382B008A181D /* HelperFiles */,
 				ABCD2E822AE33821008A181D /* Assets.xcassets */,
 				ABCD2E842AE33821008A181D /* Preview Content */,
 			);
@@ -65,6 +89,55 @@
 				ABCD2E852AE33821008A181D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABCD2E8C2AE3382B008A181D /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2E8D2AE33842008A181D /* extensions.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		ABCD2E8F2AE4058C008A181D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2E902AE40825008A181D /* SplashView.swift */,
+				ABCD2EA62AE43903008A181D /* TutorialScreen */,
+				ABCD2EA22AE438AC008A181D /* SignInView.swift */,
+				ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */,
+				ABCD2E9B2AE4181E008A181D /* GlobalView */,
+				ABCD2E962AE40CA7008A181D /* StyleTokens */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ABCD2E962AE40CA7008A181D /* StyleTokens */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */,
+				ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */,
+				ABCD2EA02AE42B48008A181D /* FontStyles.swift */,
+			);
+			path = StyleTokens;
+			sourceTree = "<group>";
+		};
+		ABCD2E9B2AE4181E008A181D /* GlobalView */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2E9C2AE41833008A181D /* LogoView.swift */,
+			);
+			path = GlobalView;
+			sourceTree = "<group>";
+		};
+		ABCD2EA62AE43903008A181D /* TutorialScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2E922AE40836008A181D /* TutorialView.swift */,
+				ABCD2EA72AE43957008A181D /* HeroView.swift */,
+				ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */,
+			);
+			path = TutorialScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +211,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCD2E812AE3381F008A181D /* ContentView.swift in Sources */,
+				ABCD2E912AE40825008A181D /* SplashView.swift in Sources */,
 				ABCD2E7F2AE3381F008A181D /* TravelistoUIChallengeApp.swift in Sources */,
+				ABCD2E9F2AE41D72008A181D /* ButtonStyles.swift in Sources */,
+				ABCD2E982AE410AE008A181D /* EnvBackgroundColorStyle.swift in Sources */,
+				ABCD2EA52AE438BD008A181D /* CreateAccountView.swift in Sources */,
+				ABCD2EA12AE42B48008A181D /* FontStyles.swift in Sources */,
+				ABCD2E9D2AE41833008A181D /* LogoView.swift in Sources */,
+				ABCD2EAA2AE439A9008A181D /* TutorialTextView.swift in Sources */,
+				ABCD2E932AE40836008A181D /* TutorialView.swift in Sources */,
+				ABCD2EA82AE43957008A181D /* HeroView.swift in Sources */,
+				ABCD2EA32AE438AC008A181D /* SignInView.swift in Sources */,
+				ABCD2E8E2AE33842008A181D /* extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,8 +362,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -287,9 +371,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rar.TravelistoUIChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -307,8 +394,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationLandscapeRight;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -316,9 +403,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.rar.TravelistoUIChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

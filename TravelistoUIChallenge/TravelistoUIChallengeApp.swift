@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TravelistoUIChallengeApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .EnvironmentColor(.backgroundColor)
         }
     }
 }

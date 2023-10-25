@@ -9,45 +9,48 @@ import SwiftUI
 
 struct TutorialView: View {
     @Environment(\.environmentBackground) var backgroundColor
-   // @EnvironmentObject var vr: ViewRouter
-
+   
     var body: some View {
         ZStack {
             backgroundColor.ignoresSafeArea()
-            VStack(spacing: 20) {
-               Image("tutorialPhoto")
-                    .resizable()
-                    .frame(width: 280, height: 280)
-                    .overlay {
-                        LogoView()
-                            .position(x: 140, y: -20)
-                            
-                    }.padding(.bottom, 40)
-                Text("Plan your travel anytime, anywhere.")
-                    .customText(textSize: 15)
-                    .padding(.bottom, 10)
-                
-                Image("pageScrollIndicator")
-                    .resizable()
-                    .frame(width: 53, height: 8, alignment: .center)
-                
-                Button(action: {
+           // NavigationStack {
+                VStack(spacing: 20) {
+                    HeroView()
                     
-                }, label: {
-                    Text("Create an account")
-                        .roundedButtonStyle()
+                    TutorialTextView(title: "Plan your travel anytime, anywhere.", textSize: 15)
+                    
+                    
+                    Image("pageScrollIndicator")
+                        .resizable()
+                        .frame(width: 53, height: 8, alignment: .center)
+                    
+                   NavigationLink {
+                      
+                       CreateAccountView()
+                    } label: {
+                        Text("Create an account")
+                            .roundedButtonStyle()
+                         
                         
-                })
-                
-                Text("Already on Travel? Log In")
-                    .customText(textSize: 13)
-                    .onTapGesture {
-                        //
                     }
+                  
+                    NavigationLink {
+                        
+                        SignInView()
+                    } label: {
+                        TutorialTextView(title: "Already on Travelisto? Log In" , textSize: 13)
+                            
+                    }
+                        
+
+                }
+                .navigationDestination(for: Screens.self) { screen in
+                   CreateAccountView()
+                }
+                .navigationBarBackButtonHidden(true)
                 
-            
-                    
-            }
+       
+      //      }
         }
         
     }
@@ -55,4 +58,5 @@ struct TutorialView: View {
 
 #Preview {
     TutorialView()
+        //.environmentObject(ViewRouter())
 }

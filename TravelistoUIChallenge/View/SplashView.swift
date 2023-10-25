@@ -8,11 +8,19 @@
 import SwiftUI
 
 struct SplashView: View {
+    @Environment(\.environmentBackground) var backgroundColor
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            backgroundColor.ignoresSafeArea()
+            VStack {
+                LogoView()
+                    
+            }
+        }
     }
 }
 
 #Preview {
     SplashView()
+    
 }
