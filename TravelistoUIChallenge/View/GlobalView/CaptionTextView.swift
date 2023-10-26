@@ -7,17 +7,18 @@
 
 import SwiftUI
 
-struct TutorialTextView: View {
+struct CaptionTextView: View {
     var title = ""
     var textSize: CGFloat = 0
     var body: some View {
-        Text(title)
-            .customText(textSize: textSize)
-            .padding(.bottom, 10)
-
+        VStack {
+            Text(title)
+                .customText(textSize: textSize)
+                .padding(.top, -90)
+        }
     }
 }
 
 #Preview {
-    TutorialTextView()
+    CaptionTextView()
 }
