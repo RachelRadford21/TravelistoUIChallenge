@@ -1,18 +1,18 @@
 //
-//  ProfileView.swift
+//  HeaderView.swift
 //  TravelistoUIChallenge
 //
-//  Created by Rachel Radford on 10/26/23.
+//  Created by Rachel Radford on 10/27/23.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
+struct HeaderView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    ProfileView()
+    HeaderView()
 }
