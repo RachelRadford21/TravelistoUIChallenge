@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct ImageModel {
+    let id = UUID()
+    let imageName: String
+    
+}

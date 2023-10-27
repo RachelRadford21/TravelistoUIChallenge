@@ -16,7 +16,7 @@ struct ButtonStyles: View {
             
         }, label: {
             Text("Create an account")
-                
+                .roundedButtonStyle()
         })
 
         Button(action: {
@@ -29,6 +29,7 @@ struct ButtonStyles: View {
                 .frame(width: 157, height: 37)
                 .foregroundStyle(Color.textColor)
                 .background(RoundedRectangle(cornerRadius: 8).fill(Color.accentStyleColor))
+                
         })
     }
 }

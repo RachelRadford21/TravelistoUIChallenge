@@ -14,7 +14,8 @@ struct CreateAccountView: View {
             Color.backgroundColor.ignoresSafeArea()
             VStack {
                 Text("Create account view")
-            }.navigateStyle(view: TutorialView())
+            }
+            //.navigateStyle(view: TutorialView())
         }
     }
     

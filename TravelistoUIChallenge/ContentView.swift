@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.environmentBackground) var backgroundColor
     @State private var  isActive = false
    
     var body: some View {
         ZStack {
-            Color.backgroundColor.ignoresSafeArea()
+            Color.black.ignoresSafeArea()
             NavigationStack {
                 
                 if !isActive {

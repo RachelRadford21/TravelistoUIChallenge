@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB80BA472AEACFB6008A9A35 /* NavigationStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80BA462AEACFB6008A9A35 /* NavigationStyles.swift */; };
+		AB80BA4A2AEAD877008A9A35 /* ImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80BA492AEAD877008A9A35 /* ImageModel.swift */; };
+		AB80BA4C2AEAED0F008A9A35 /* CreateAccountNavLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80BA4B2AEAED0F008A9A35 /* CreateAccountNavLinkView.swift */; };
+		AB80BA4E2AEAEDB4008A9A35 /* SignInNavLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB80BA4D2AEAEDB4008A9A35 /* SignInNavLinkView.swift */; };
 		ABCD2E7F2AE3381F008A181D /* TravelistoUIChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E7E2AE3381F008A181D /* TravelistoUIChallengeApp.swift */; };
 		ABCD2E812AE3381F008A181D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E802AE3381F008A181D /* ContentView.swift */; };
 		ABCD2E832AE33821008A181D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABCD2E822AE33821008A181D /* Assets.xcassets */; };
@@ -14,17 +18,27 @@
 		ABCD2E8E2AE33842008A181D /* extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E8D2AE33842008A181D /* extensions.swift */; };
 		ABCD2E912AE40825008A181D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E902AE40825008A181D /* SplashView.swift */; };
 		ABCD2E932AE40836008A181D /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E922AE40836008A181D /* TutorialView.swift */; };
-		ABCD2E982AE410AE008A181D /* EnvBackgroundColorStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */; };
 		ABCD2E9D2AE41833008A181D /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E9C2AE41833008A181D /* LogoView.swift */; };
 		ABCD2E9F2AE41D72008A181D /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */; };
 		ABCD2EA12AE42B48008A181D /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA02AE42B48008A181D /* FontStyles.swift */; };
 		ABCD2EA32AE438AC008A181D /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA22AE438AC008A181D /* SignInView.swift */; };
 		ABCD2EA52AE438BD008A181D /* CreateAccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */; };
 		ABCD2EA82AE43957008A181D /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA72AE43957008A181D /* HeroView.swift */; };
-		ABCD2EAA2AE439A9008A181D /* TutorialTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */; };
+		ABCD2EAA2AE439A9008A181D /* CaptionTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD2EA92AE439A9008A181D /* CaptionTextView.swift */; };
+		ABFCA5642AEAFE8D00B6CAF6 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA5632AEAFE8D00B6CAF6 /* TextFieldView.swift */; };
+		ABFCA5662AEB0F8200B6CAF6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA5652AEB0F8200B6CAF6 /* ProfileView.swift */; };
+		ABFCA5682AEBEA1800B6CAF6 /* ResetPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA5672AEBEA1800B6CAF6 /* ResetPasswordView.swift */; };
+		ABFCA56A2AEC3F0B00B6CAF6 /* SecureFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA5692AEC3F0B00B6CAF6 /* SecureFieldView.swift */; };
+		ABFCA56C2AEC412900B6CAF6 /* TextFieldStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA56B2AEC412900B6CAF6 /* TextFieldStyles.swift */; };
+		ABFCA56E2AEC4BE000B6CAF6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA56D2AEC4BE000B6CAF6 /* HeaderView.swift */; };
+		ABFCA5702AEC58BB00B6CAF6 /* ImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFCA56F2AEC58BB00B6CAF6 /* ImageCarouselView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AB80BA462AEACFB6008A9A35 /* NavigationStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStyles.swift; sourceTree = "<group>"; };
+		AB80BA492AEAD877008A9A35 /* ImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageModel.swift; sourceTree = "<group>"; };
+		AB80BA4B2AEAED0F008A9A35 /* CreateAccountNavLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountNavLinkView.swift; sourceTree = "<group>"; };
+		AB80BA4D2AEAEDB4008A9A35 /* SignInNavLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInNavLinkView.swift; sourceTree = "<group>"; };
 		ABCD2E7B2AE3381F008A181D /* TravelistoUIChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelistoUIChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCD2E7E2AE3381F008A181D /* TravelistoUIChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelistoUIChallengeApp.swift; sourceTree = "<group>"; };
 		ABCD2E802AE3381F008A181D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,14 +47,20 @@
 		ABCD2E8D2AE33842008A181D /* extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extensions.swift; sourceTree = "<group>"; };
 		ABCD2E902AE40825008A181D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		ABCD2E922AE40836008A181D /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialView.swift; sourceTree = "<group>"; };
-		ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvBackgroundColorStyle.swift; sourceTree = "<group>"; };
 		ABCD2E9C2AE41833008A181D /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
 		ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		ABCD2EA02AE42B48008A181D /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
 		ABCD2EA22AE438AC008A181D /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountView.swift; sourceTree = "<group>"; };
 		ABCD2EA72AE43957008A181D /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
-		ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialTextView.swift; sourceTree = "<group>"; };
+		ABCD2EA92AE439A9008A181D /* CaptionTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptionTextView.swift; sourceTree = "<group>"; };
+		ABFCA5632AEAFE8D00B6CAF6 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		ABFCA5652AEB0F8200B6CAF6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		ABFCA5672AEBEA1800B6CAF6 /* ResetPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordView.swift; sourceTree = "<group>"; };
+		ABFCA5692AEC3F0B00B6CAF6 /* SecureFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureFieldView.swift; sourceTree = "<group>"; };
+		ABFCA56B2AEC412900B6CAF6 /* TextFieldStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldStyles.swift; sourceTree = "<group>"; };
+		ABFCA56D2AEC4BE000B6CAF6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		ABFCA56F2AEC58BB00B6CAF6 /* ImageCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCarouselView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB80BA482AEAD866008A9A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AB80BA492AEAD877008A9A35 /* ImageModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		ABCD2E722AE3381F008A181D = {
 			isa = PBXGroup;
 			children = (
@@ -75,6 +103,7 @@
 			children = (
 				ABCD2E7E2AE3381F008A181D /* TravelistoUIChallengeApp.swift */,
 				ABCD2E802AE3381F008A181D /* ContentView.swift */,
+				AB80BA482AEAD866008A9A35 /* Model */,
 				ABCD2E8F2AE4058C008A181D /* View */,
 				ABCD2E8C2AE3382B008A181D /* HelperFiles */,
 				ABCD2E822AE33821008A181D /* Assets.xcassets */,
@@ -104,8 +133,9 @@
 			children = (
 				ABCD2E902AE40825008A181D /* SplashView.swift */,
 				ABCD2EA62AE43903008A181D /* TutorialScreen */,
-				ABCD2EA22AE438AC008A181D /* SignInView.swift */,
-				ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */,
+				ABFCA55E2AEAFD9700B6CAF6 /* SignInScreen */,
+				ABFCA55F2AEAFDB000B6CAF6 /* CreateAccountScreen */,
+				ABFCA5622AEAFDE700B6CAF6 /* ResetPasswordScreen */,
 				ABCD2E9B2AE4181E008A181D /* GlobalView */,
 				ABCD2E962AE40CA7008A181D /* StyleTokens */,
 			);
@@ -115,9 +145,10 @@
 		ABCD2E962AE40CA7008A181D /* StyleTokens */ = {
 			isa = PBXGroup;
 			children = (
-				ABCD2E972AE410AE008A181D /* EnvBackgroundColorStyle.swift */,
 				ABCD2E9E2AE41D72008A181D /* ButtonStyles.swift */,
 				ABCD2EA02AE42B48008A181D /* FontStyles.swift */,
+				AB80BA462AEACFB6008A9A35 /* NavigationStyles.swift */,
+				ABFCA56B2AEC412900B6CAF6 /* TextFieldStyles.swift */,
 			);
 			path = StyleTokens;
 			sourceTree = "<group>";
@@ -126,6 +157,10 @@
 			isa = PBXGroup;
 			children = (
 				ABCD2E9C2AE41833008A181D /* LogoView.swift */,
+				ABFCA5632AEAFE8D00B6CAF6 /* TextFieldView.swift */,
+				ABFCA5692AEC3F0B00B6CAF6 /* SecureFieldView.swift */,
+				ABCD2EA92AE439A9008A181D /* CaptionTextView.swift */,
+				ABFCA56D2AEC4BE000B6CAF6 /* HeaderView.swift */,
 			);
 			path = GlobalView;
 			sourceTree = "<group>";
@@ -135,9 +170,36 @@
 			children = (
 				ABCD2E922AE40836008A181D /* TutorialView.swift */,
 				ABCD2EA72AE43957008A181D /* HeroView.swift */,
-				ABCD2EA92AE439A9008A181D /* TutorialTextView.swift */,
+				AB80BA4B2AEAED0F008A9A35 /* CreateAccountNavLinkView.swift */,
+				AB80BA4D2AEAEDB4008A9A35 /* SignInNavLinkView.swift */,
+				ABFCA56F2AEC58BB00B6CAF6 /* ImageCarouselView.swift */,
 			);
 			path = TutorialScreen;
+			sourceTree = "<group>";
+		};
+		ABFCA55E2AEAFD9700B6CAF6 /* SignInScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2EA22AE438AC008A181D /* SignInView.swift */,
+				ABFCA5652AEB0F8200B6CAF6 /* ProfileView.swift */,
+			);
+			path = SignInScreen;
+			sourceTree = "<group>";
+		};
+		ABFCA55F2AEAFDB000B6CAF6 /* CreateAccountScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ABCD2EA42AE438BD008A181D /* CreateAccountView.swift */,
+			);
+			path = CreateAccountScreen;
+			sourceTree = "<group>";
+		};
+		ABFCA5622AEAFDE700B6CAF6 /* ResetPasswordScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ABFCA5672AEBEA1800B6CAF6 /* ResetPasswordView.swift */,
+			);
+			path = ResetPasswordScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,18 +273,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABCD2E812AE3381F008A181D /* ContentView.swift in Sources */,
+				AB80BA472AEACFB6008A9A35 /* NavigationStyles.swift in Sources */,
 				ABCD2E912AE40825008A181D /* SplashView.swift in Sources */,
+				AB80BA4C2AEAED0F008A9A35 /* CreateAccountNavLinkView.swift in Sources */,
 				ABCD2E7F2AE3381F008A181D /* TravelistoUIChallengeApp.swift in Sources */,
+				ABFCA56C2AEC412900B6CAF6 /* TextFieldStyles.swift in Sources */,
 				ABCD2E9F2AE41D72008A181D /* ButtonStyles.swift in Sources */,
-				ABCD2E982AE410AE008A181D /* EnvBackgroundColorStyle.swift in Sources */,
+				ABFCA56E2AEC4BE000B6CAF6 /* HeaderView.swift in Sources */,
+				ABFCA5702AEC58BB00B6CAF6 /* ImageCarouselView.swift in Sources */,
+				ABFCA5682AEBEA1800B6CAF6 /* ResetPasswordView.swift in Sources */,
 				ABCD2EA52AE438BD008A181D /* CreateAccountView.swift in Sources */,
+				ABFCA5642AEAFE8D00B6CAF6 /* TextFieldView.swift in Sources */,
 				ABCD2EA12AE42B48008A181D /* FontStyles.swift in Sources */,
+				AB80BA4E2AEAEDB4008A9A35 /* SignInNavLinkView.swift in Sources */,
+				ABFCA56A2AEC3F0B00B6CAF6 /* SecureFieldView.swift in Sources */,
 				ABCD2E9D2AE41833008A181D /* LogoView.swift in Sources */,
-				ABCD2EAA2AE439A9008A181D /* TutorialTextView.swift in Sources */,
+				ABCD2EAA2AE439A9008A181D /* CaptionTextView.swift in Sources */,
 				ABCD2E932AE40836008A181D /* TutorialView.swift in Sources */,
 				ABCD2EA82AE43957008A181D /* HeroView.swift in Sources */,
 				ABCD2EA32AE438AC008A181D /* SignInView.swift in Sources */,
+				ABFCA5662AEB0F8200B6CAF6 /* ProfileView.swift in Sources */,
 				ABCD2E8E2AE33842008A181D /* extensions.swift in Sources */,
+				AB80BA4A2AEAD877008A9A35 /* ImageModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

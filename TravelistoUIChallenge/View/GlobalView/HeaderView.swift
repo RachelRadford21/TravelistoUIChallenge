@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct HeaderView: View {
+    var headerTitle = ""
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text(headerTitle)
+                .headerStyle()
+                .padding(.trailing, 255)
+        }.padding(.bottom, 20)
     }
 }
 

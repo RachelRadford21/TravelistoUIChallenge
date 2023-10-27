@@ -8,8 +8,18 @@
 import SwiftUI
 
 struct SignInNavLinkView: View {
+    @State var isPresented = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        CaptionTextView(title: "Already on Travelisto? Log In" , textSize: 13)
+            .onTapGesture {
+                isPresented.toggle()
+            }.sheet(isPresented: $isPresented) {
+                NavigationStack {
+                    SignInView()
+                }.navigationBarBackButtonHidden(true)
+                    
+            }
     }
 }
 

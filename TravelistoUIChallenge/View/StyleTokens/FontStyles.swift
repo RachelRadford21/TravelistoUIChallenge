@@ -16,11 +16,11 @@ struct FontStyles: View {
             .roundedButtonText()
         
         Text("Square 15 Text")
-            .square15Text()
+            .customDemiBoldText(textSize: 15)
           
         
         Text("Square 13 Text")
-            .square13Text()
+            .customDemiBoldText(textSize: 13)
         
         Text("Custom Text")
             .customText(textSize: textSize)
@@ -31,7 +31,7 @@ struct HeaderStyle: ViewModifier {
     func body(content: Content) -> some View {
         content
             .foregroundStyle(Color.textColor)
-            .font(.custom("AvenirNext-SemiBold", size: 17))
+            .font(.custom("AvenirNext-Bold", size: 28))
     }
 }
 
@@ -43,21 +43,15 @@ struct RoundedButtonTextStyle: ViewModifier {
     }
 }
 
-struct Square15TextStyle: ViewModifier {
+struct customDemiBoldTextStyle: ViewModifier {
+    var textSize: CGFloat = 28
     func body(content: Content) -> some View {
         content
             .foregroundStyle(Color.textColor)
-            .font(.custom("AvenirNext-SemiBold", size: 15))
+            .font(.custom("AvenirNext-SemiBold", size: textSize))
     }
 }
 
-struct Square13TextStyle: ViewModifier {
-    func body(content: Content) -> some View {
-        content
-            .foregroundStyle(Color.textColor)
-            .font(.custom("AvenirNext-SemiBold", size: 13))
-    }
-}
 
 struct CustomTextStyle: ViewModifier {
     var textSize: CGFloat = 15
@@ -76,14 +70,11 @@ extension View {
         modifier(RoundedButtonTextStyle())
     }
     
-    public func square15Text() -> some View {
-        modifier(Square15TextStyle())
+    public func customDemiBoldText(textSize: CGFloat) -> some View {
+        modifier(customDemiBoldTextStyle(textSize: textSize))
     }
     
-    public func square13Text() -> some View {
-        modifier(Square13TextStyle())
-    }
-    
+  
     public func customText(textSize: CGFloat) -> some View {
        
         modifier(CustomTextStyle(textSize: textSize))

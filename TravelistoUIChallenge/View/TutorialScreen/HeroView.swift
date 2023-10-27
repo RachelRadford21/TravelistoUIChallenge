@@ -6,17 +6,29 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct HeroView: View {
+    
+    init() {
+    
+        UIPageControl.appearance().currentPageIndicatorTintColor = .accentUIColor
+        UIPageControl.appearance().pageIndicatorTintColor = UIColor.gray.withAlphaComponent(0.6)
+    }
     var body: some View {
-        Image("tutorialPhoto")
-             .resizable()
-             .frame(width: 280, height: 280)
-             .overlay {
-                 LogoView()
-                     .position(x: 140, y: -20)
-                     
-             }.padding(.bottom, 40)
+        VStack {
+            TabView {
+                ImageCarouselView()
+
+            }.padding(.bottom, 10)
+            .tabViewStyle(.page(indexDisplayMode: .always))
+           
+           
+            CaptionTextView(title: "Plan your travel anytime, anywhere.", textSize: 15)
+                    .offset(x: 0, y: -110)
+
+        }
+        .padding(.bottom, 100)
     }
 }
 

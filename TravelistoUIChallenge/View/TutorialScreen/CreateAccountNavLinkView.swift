@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct CreateAccountNavLinkView: View {
+    @State var isPresented = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Text("Create an account")
+            .roundedButtonStyle()
+            .padding(.top, -155)
+            .onTapGesture {
+                isPresented.toggle()
+            }.sheet(isPresented: $isPresented) {
+                NavigationStack {
+                    CreateAccountView()
+                }
+                .navigateStyle(view: TutorialView())
+            }
     }
 }
 

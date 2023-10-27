@@ -14,7 +14,8 @@ struct ProfileView: View {
             
             VStack {
                 Text("Profile View")
-            }.navigateStyle(view: SignInView())
+                    .foregroundStyle(Color.white)
+            }
         }
         
     }

@@ -8,10 +8,10 @@
 import SwiftUI
 
 struct SplashView: View {
-    @Environment(\.environmentBackground) var backgroundColor
+   
     var body: some View {
         ZStack {
-            backgroundColor.ignoresSafeArea()
+            Color.black.ignoresSafeArea()
             VStack {
                 LogoView()
                     
