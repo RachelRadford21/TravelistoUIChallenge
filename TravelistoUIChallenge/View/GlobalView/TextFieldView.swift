@@ -11,12 +11,9 @@ struct TextFieldView: View {
     @State var fieldText = ""
     var placeholder = ""
     
-    
     var body: some View {
-        
         TextField(placeholder, text: $fieldText)
             .textfieldStyle()
-
           
     }
 }

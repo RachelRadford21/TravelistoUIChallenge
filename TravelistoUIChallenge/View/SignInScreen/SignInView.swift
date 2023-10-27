@@ -32,15 +32,12 @@ struct SignInView: View {
                         SignInView()
                     }
                 } label: {
-                    
                     Text("Sign In")
                         .roundedButtonStyle()
                         .padding(.top, 20)
                 }
                 Spacer()
-                //                            NavigationLink {
-                //                                ResetPasswordView()
-                //                            } label: {
+
                 CaptionTextView(title: "Forgot your password?" , textSize: 13)
                     .position(x: 200, y: -10)
                 

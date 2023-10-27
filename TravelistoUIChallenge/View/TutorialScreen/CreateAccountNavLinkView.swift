@@ -13,7 +13,7 @@ struct CreateAccountNavLinkView: View {
         
         Text("Create an account")
             .roundedButtonStyle()
-            .padding(.top, -155)
+            .padding(.top, -175)
             .onTapGesture {
                 isPresented.toggle()
             }.sheet(isPresented: $isPresented) {

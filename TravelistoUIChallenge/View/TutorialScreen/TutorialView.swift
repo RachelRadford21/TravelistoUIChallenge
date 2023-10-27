@@ -14,19 +14,12 @@ struct TutorialView: View {
             Color.black.ignoresSafeArea()
             VStack {
                 HeroView()
-               
-                    CreateAccountNavLinkView()
-                    
-                         
-                
+                CreateAccountNavLinkView()
                 SignInNavLinkView()
-                  
+
+                
             }
-//            .navigationDestination(for: String.self, destination: { view in
-//                CreateAccountView()
-//            })
             .navigationBarBackButtonHidden(true)
-              
         }
     }
 }

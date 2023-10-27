@@ -13,12 +13,6 @@ struct SecureFieldView: View {
     var body: some View {
         SecureField(passwordFieldText, text: $password)
             .textfieldStyle()
-//            .frame(width: 335, height: 56)
-//            .padding(.leading)
-//            .foregroundStyle(Color.textFieldTextColor)
-//            .background(Color.backgroundColor.opacity(0.6))
-//            .cornerRadius(8)
-//            .customText(textSize: 17)
     }
 }
 

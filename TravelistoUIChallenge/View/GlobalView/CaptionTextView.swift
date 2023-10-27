@@ -12,12 +12,8 @@ struct CaptionTextView: View {
     var textSize: CGFloat = 0
     var body: some View {
         VStack {
-           
             Text(title)
                 .customText(textSize: textSize)
-              //  .padding(.top, -90)
-             
-            
         }
     }
 }

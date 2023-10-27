@@ -11,13 +11,11 @@ struct ProfileView: View {
     var body: some View {
         ZStack {
             Color.black.ignoresSafeArea()
-            
-            VStack {
+        VStack {
                 Text("Profile View")
                     .foregroundStyle(Color.white)
             }
         }
-        
     }
 }
 

@@ -14,14 +14,10 @@ struct ContentView: View {
         ZStack {
             Color.black.ignoresSafeArea()
             NavigationStack {
-                
                 if !isActive {
                     SplashView()
-                        
                 }else {
                     TutorialView()
-                       
-                    
                 }
             }
             .onAppear {

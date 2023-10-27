@@ -8,20 +8,18 @@
 import SwiftUI
 
 struct CreateAccountView: View {
-
+    
     var body: some View {
         ZStack {
             Color.backgroundColor.ignoresSafeArea()
             VStack {
                 Text("Create account view")
             }
-            //.navigateStyle(view: TutorialView())
         }
     }
-    
 }
 
 #Preview {
     CreateAccountView()
-       
+    
 }
