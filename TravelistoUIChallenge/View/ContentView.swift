@@ -18,6 +18,7 @@ struct ContentView: View {
                     SplashView()
                 }else {
                     TutorialView()
+                      
                 }
             }
             .onAppear {
@@ -26,12 +27,12 @@ struct ContentView: View {
                         self.isActive = true
                     }
                 }
-            }.navigationBarBackButtonHidden(true)
+            }
         }
     }
 }
 
-//#Preview {
-//    ContentView()
-//       
-//}
+#Preview {
+    ContentView()
+       
+}

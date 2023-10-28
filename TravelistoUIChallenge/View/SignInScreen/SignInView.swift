@@ -10,7 +10,9 @@ import SwiftUI
 struct SignInView: View {
     @State var email = ""
     @State var password = ""
-    
+    @State var textfieldBackgroundColor = Color.black
+    @State var isTextfieldInFocus = false
+
     init() {
         UITextField.appearance().keyboardAppearance = .dark
     }
@@ -26,22 +28,36 @@ struct SignInView: View {
                 SecureFieldView(password: password, passwordFieldText: "Password")
                 
                 NavigationLink {
-                    if email == "" && password == "" {
-                        ProfileView()
-                    }else {
-                        SignInView()
-                    }
+                    ProfileView()
                 } label: {
                     Text("Sign In")
                         .roundedButtonStyle()
                         .padding(.top, 20)
                 }
+                //.navigateStyle(view: SignInView())
+                .navigationBarBackButtonHidden()
+                .toolbar() {
+                    ToolbarItem(placement: .topBarLeading) {
+                        NavigationLink {
+                           TutorialView()
+    
+                        } label: {
+                            Image("BackArrow")
+                            
+                       }
+                       
+                           
+                    }
+                }
                 Spacer()
-
+                NavigationLink {
+                    ResetPasswordView()
+                } label: {
                 CaptionTextView(title: "Forgot your password?" , textSize: 13)
                     .position(x: 200, y: -10)
-                
-            }.navigationBarBackButtonHidden()
+                }
+                //
+            }
              .ignoresSafeArea(.keyboard)
             Spacer()
             

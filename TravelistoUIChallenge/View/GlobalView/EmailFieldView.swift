@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TextFieldView: View {
+struct EmailFieldView: View {
     @State var fieldText = ""
     var placeholder = ""
     
@@ -19,5 +19,5 @@ struct TextFieldView: View {
 }
 
 #Preview {
-    TextFieldView()
+    EmailFieldView()
 }
